@@ -25,6 +25,7 @@ public class AutomateGet {
     }
 
    @Test
+   //commented
     public void validate_response_body(){
         given().
                 baseUri("https://api.postman.com").
