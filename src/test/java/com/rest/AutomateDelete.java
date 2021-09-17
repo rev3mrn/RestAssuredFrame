@@ -15,6 +15,8 @@ import static org.hamcrest.Matchers.matchesPattern;
 public class AutomateDelete {
 
     @BeforeClass
+    
+    //comment added
     public void beforeClass(){
         RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder().
                 setBaseUri("https://api.postman.com").
